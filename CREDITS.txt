@@ -1,0 +1,9 @@
+Photo credits (Wikimedia Commons)
+hp-01	File:Sennheiser RS 175 wireless headphone + station 2,44 ghz.jpg	Richardkiwi	CC BY-SA 4.0	https://commons.wikimedia.org/wiki/File:Sennheiser_RS_175_wireless_headphone_%2B_station_2,44_ghz.jpg
+hp-02	File:PS4-Headset.jpg	Hama GmbH &amp; Co KG	CC BY-SA 4.0	https://commons.wikimedia.org/wiki/File:PS4-Headset.jpg
+ep-01	File:Jabra True Wireless Earbuds Lineup (Sep 2023).jpg	ScribblingGeek	CC BY-SA 4.0	https://commons.wikimedia.org/wiki/File:Jabra_True_Wireless_Earbuds_Lineup_(Sep_2023).jpg
+ep-02	File:Nothing ear (1) earphones (black).jpg	Premeditated	CC BY-SA 4.0	https://commons.wikimedia.org/wiki/File:Nothing_ear_(1)_earphones_(black).jpg
+sp-01	File:Beats By Dr. Dre Pill Portable Bluetooth Speaker Black N2.jpg	Beats	CC0	https://commons.wikimedia.org/wiki/File:Beats_By_Dr._Dre_Pill_Portable_Bluetooth_Speaker_Black_N2.jpg
+sw-01	File:Black Olio Brown Leather Strap Front.jpg	United States Federal Communications Commission	Public domain	https://commons.wikimedia.org/wiki/File:Black_Olio_Brown_Leather_Strap_Front.jpg
+ch-01	File:Multi-USB and charger.jpg	SD hehua	CC BY 4.0	https://commons.wikimedia.org/wiki/File:Multi-USB_and_charger.jpg
+pb-01	File:Cheero powerbank & Samsung Galaxy S4 20140910.jpg	Japanexperterna	CC BY-SA 3.0	https://commons.wikimedia.org/wiki/File:Cheero_powerbank_%26_Samsung_Galaxy_S4_20140910.jpg

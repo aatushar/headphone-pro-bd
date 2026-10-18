@@ -1,0 +1,13 @@
+:root { --brand: #0d6efd; }
+body { background: #f7f8fa; }
+.navbar-brand img { height: 36px; width: 36px; border-radius: 50%; object-fit: cover; }
+.hero { background: linear-gradient(135deg, #0b1220, #1b3a6b); color: #fff; padding: 4.5rem 0; }
+.hero h1 { font-weight: 700; }
+.product-card { border: 0; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,.06); transition: transform .15s, box-shadow .15s; position: relative; }
+.product-card:hover { transform: translateY(-4px); box-shadow: 0 8px 22px rgba(0,0,0,.12); }
+.product-card .card-img-top { aspect-ratio: 1 / 1; object-fit: cover; background: #eef1f6; }
+.product-card .badge { z-index: 1; left: 0; top: 0; }
+.fab-messenger { position: fixed; right: 18px; bottom: 18px; width: 56px; height: 56px; border-radius: 50%; background: #0084ff; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; box-shadow: 0 4px 14px rgba(0,0,0,.3); z-index: 1030; }
+.fab-messenger:hover { color: #fff; background: #006fd6; }
+footer { background: #0b1220; color: #aab4c5; }
+footer a { color: #fff; }
