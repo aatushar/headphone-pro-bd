@@ -14,7 +14,7 @@
   <nav class="navbar navbar-expand-md bg-white shadow-sm sticky-top">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#">
-        <img src="images/logo.jpg" alt="Headphone BD logo"> Headphone Pro BD
+        <img src="images/logo.jpg" alt="Headphone BD logo"> HeadPhone bd
       </a>
       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Menu"><span class="navbar-toggler-icon"></span></button>
       <div id="nav" class="collapse navbar-collapse">
@@ -42,12 +42,25 @@
   </section>
 
   <main class="container py-5" id="products">
+    <section id="featuredProduct" class="mb-5" aria-label="Featured product"></section>
     <div class="row g-3 align-items-center mb-4">
       <div class="col-lg-8"><div id="filters" class="d-flex flex-wrap gap-2"></div></div>
       <div class="col-lg-4"><input id="search" type="search" class="form-control" placeholder="Search products..."></div>
     </div>
     <div id="productGrid" class="row g-3 g-md-4"></div>
   </main>
+
+  <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="productModalTitle"></h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="productModalBody"></div>
+      </div>
+    </div>
+  </div>
 
   <section id="how" class="bg-white py-5">
     <div class="container">
@@ -64,7 +77,7 @@
     <div class="container">
       <p class="mb-1"><i class="bi bi-geo-alt-fill"></i> House No: 40, Road 3E, Uttara Sector 9, Dhaka, Bangladesh, 1230</p>
       <p class="mb-1"><i class="bi bi-whatsapp"></i> WhatsApp: <a href="https://wa.me/8801782691070" target="_blank" rel="noopener">01782691070</a> · Facebook: <a href="https://www.facebook.com/headphone.com.bd" target="_blank" rel="noopener">facebook.com/headphone.com.bd</a></p>
-      <small>&copy; <span id="year"></span> Headphone Pro BD · headphone.pro.bd · <a href="CREDITS.txt" target="_blank">Photo credits</a></small>
+      <small>&copy; <span id="year"></span> HeadPhone bd · headphone.pro.bd · <a href="CREDITS.txt" target="_blank">Photo credits</a></small>
     </div>
   </footer>
 
