@@ -7,6 +7,13 @@ body { background: #f7f8fa; }
 .product-card:hover { transform: translateY(-4px); box-shadow: 0 8px 22px rgba(0,0,0,.12); }
 .product-card .card-img-top { aspect-ratio: 1 / 1; object-fit: cover; background: #eef1f6; }
 .product-card .badge { z-index: 1; left: 0; top: 0; }
+.product-card { cursor: pointer; }
+.featured-card { background: #fff; border-radius: 18px; overflow: hidden; border: 2px solid #ffc107; box-shadow: 0 6px 24px rgba(255,193,7,.25); cursor: pointer; }
+.featured-img { background: #eef1f6; display: flex; align-items: center; justify-content: center; padding: 1rem; }
+.featured-img img { width: 100%; max-height: 360px; object-fit: contain; }
+.modal-main { max-height: 60vh; object-fit: contain; background: #eef1f6; }
+.thumb { width: 60px; height: 60px; object-fit: cover; border-radius: 8px; border: 2px solid transparent; cursor: pointer; }
+.thumb.active { border-color: #0d6efd; }
 .fab-messenger { position: fixed; right: 18px; bottom: 18px; width: 56px; height: 56px; border-radius: 50%; background: #0084ff; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; box-shadow: 0 4px 14px rgba(0,0,0,.3); z-index: 1030; }
 .fab-messenger:hover { color: #fff; background: #006fd6; }
 footer { background: #0b1220; color: #aab4c5; }

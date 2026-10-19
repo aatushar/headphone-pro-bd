@@ -37,6 +37,10 @@
     </div>
   </header>
 
+  <section class="container pt-5" id="featured-section">
+    <div id="featured"></div>
+  </section>
+
   <main class="container py-5" id="products">
     <div class="row g-3 align-items-center mb-4">
       <div class="col-lg-8"><div id="filters" class="d-flex flex-wrap gap-2"></div></div>
@@ -58,12 +62,29 @@
 
   <footer id="contact" class="py-4 text-center">
     <div class="container">
-      <p class="mb-1">Facebook: <a href="https://www.facebook.com/headphone.com.bd" target="_blank" rel="noopener">facebook.com/headphone.com.bd</a> · Dhaka, Bangladesh</p>
+      <p class="mb-1"><i class="bi bi-geo-alt-fill"></i> House No: 40, Road 3E, Uttara Sector 9, Dhaka, Bangladesh, 1230</p>
+      <p class="mb-1"><i class="bi bi-whatsapp"></i> WhatsApp: <a href="https://wa.me/8801782691070" target="_blank" rel="noopener">01782691070</a> · Facebook: <a href="https://www.facebook.com/headphone.com.bd" target="_blank" rel="noopener">facebook.com/headphone.com.bd</a></p>
       <small>&copy; <span id="year"></span> Headphone Pro BD · headphone.pro.bd · <a href="CREDITS.txt" target="_blank">Photo credits</a></small>
     </div>
   </footer>
 
   <a class="fab-messenger" data-messenger target="_blank" rel="noopener" aria-label="Chat on Messenger"><i class="bi bi-messenger"></i></a>
+
+  <div class="modal fade" id="productModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable modal-fullscreen-sm-down">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title h5" id="productModalTitle"></h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="productModalBody"></div>
+        <div class="modal-footer">
+          <a id="productModalWhatsapp" class="btn btn-success" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> Order Now on WhatsApp</a>
+          <a id="productModalOrder" class="btn btn-primary" target="_blank" rel="noopener"><i class="bi bi-messenger"></i> Order on Messenger</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/products.js"></script>
